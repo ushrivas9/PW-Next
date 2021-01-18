@@ -14,21 +14,21 @@ class Home extends Component {
           Hello, you have reached the personal website of Upmanyu Shrivastava
         </h1>
         <div>
-          <h5>
+          <h4>
             Find me on
             <IconButton href="https://github.com/ushrivas9">
-              <GitHubIcon fontSize="small" />
+              <GitHubIcon />
             </IconButton>
             <IconButton href="https://www.linkedin.com/in/ushrivas98/">
-              <LinkedInIcon fontSize="small" />
+              <LinkedInIcon />
             </IconButton>
             <IconButton href="mailto:upmanyushrivastava98@gmail.com">
-              <MailIcon fontSize="small" />
+              <MailIcon />
             </IconButton>
             <IconButton href="https://drive.google.com/file/d/1CPpVOIW6-q6QkMnCe_dGkO_VXK6YOWtK/view?usp=sharing">
-              <InsertDriveFileIcon fontSize="small" />
+              <InsertDriveFileIcon />
             </IconButton>
-          </h5>
+          </h4>
         </div>
       </div>
     );
