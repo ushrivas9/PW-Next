@@ -4,6 +4,7 @@ import IconButton from "@material-ui/core/IconButton";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import MailIcon from "@material-ui/icons/Mail";
+import InsertDriveFileIcon from "@material-ui/icons/InsertDriveFile";
 
 class Home extends Component {
   render() {
@@ -23,6 +24,9 @@ class Home extends Component {
             </IconButton>
             <IconButton href="mailto:upmanyushrivastava98@gmail.com">
               <MailIcon fontSize="small" />
+            </IconButton>
+            <IconButton href="https://drive.google.com/file/d/1CPpVOIW6-q6QkMnCe_dGkO_VXK6YOWtK/view?usp=sharing">
+              <InsertDriveFileIcon fontSize="small" />
             </IconButton>
           </h5>
         </div>
